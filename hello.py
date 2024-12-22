@@ -4,7 +4,7 @@ print("hiiii guys")
 print("Hello World")
 f=10
 def addition(*args):
-    print(args)
+    return print(args)
     print(type(args))
      
 
@@ -15,6 +15,6 @@ def subtration(a,b):
 print(subtration(20,10))
 
 subtinlambda=lambda a,b:a-b 
-print(subtinlambda(40-10))
-
+subtinlambda(40,10)
+print(subtinlambda)
 
