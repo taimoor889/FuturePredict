@@ -14,7 +14,10 @@ def subtration(a,b):
     return a-b 
 print(subtration(20,10))
 
-subtinlambda=lambda a,b:a-b 
-subtinlambda(40,10)
-print(subtinlambda)
+# Define the lambda function
+multiply = lambda x, y: x * y
+
+# Call the lambda function and print the result
+print(multiply(3, 4))  # Output will be 12
+
 
